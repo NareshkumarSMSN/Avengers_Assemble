@@ -11,8 +11,8 @@ h1{
     position: fixed;
     top: 0;
     width: 5000px;
-    height: 80px;
-    background-color: rgb(34, 34, 34);
+    height: 100px;
+    background-color: rgba(34, 34, 34, 0.717);
     z-index: -1;
 }
 .authors{
@@ -51,6 +51,15 @@ body{
     position: fixed;
     top: 40px;
     right: 20px;
-    background-color: black;
+}
 
+button{
+
+    border: 0;
+    padding:10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
