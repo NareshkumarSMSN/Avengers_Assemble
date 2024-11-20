@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 h1{
+    margin-left: 60px;
     font-family: "Poppins", sans-serif;
 
 }
 
+.top-bar{
+    position: fixed;
+    top: 0;
+    width: 5000px;
+    height: 80px;
+    background-color: rgb(34, 34, 34);
+    z-index: -1;
+}
+.authors{
+    margin-top: 100px;
+    position: fixed;
+}
 p{
 
     font-family: "Poppins", sans-serif;
@@ -20,7 +33,19 @@ button:hover{
 }
 
 .box1{
+    margin-top: 100px;
     height:100px;
     width: 100px;
     background-color: orange;
+}
+
+body{
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    color: aliceblue;
+    position: fixed;
+    width: 60px;
 }
